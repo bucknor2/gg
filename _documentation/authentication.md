@@ -22,7 +22,7 @@ left_code_blocks:
 right_code_blocks:
   - code_block: c(1:3)
     title: R
-    language:
+    language: R
   - code_block: ' curl http://api.myapp.com/books?token=YOUR_APP_KEY'
     title: Curl
     language: bash
