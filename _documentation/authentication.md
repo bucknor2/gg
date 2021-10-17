@@ -20,7 +20,7 @@ right_code_blocks:
        $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
          alert(data);
        });
-    title: JQuery
+    title: R
     language: javascript
   - code_block: |2-
        curl http://api.myapp.com/books?token=YOUR_APP_KEY
