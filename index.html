@@ -58,15 +58,15 @@
 					
 					
 						<li>
-							<a href="#documentationauthentication">
-								
+							<a href="#documentationgetting_started">
+								Getting Started
 								
 							</a>
 						</li>
 					
 						<li>
-							<a href="#documentationgetting_started">
-								Getting Started
+							<a href="#documentationauthentication">
+								Authentication
 								
 							</a>
 						</li>
@@ -147,27 +147,6 @@
 		<section class="doc-content">
 			<section class="left-docs">
 				<h3>
-					<a id="documentationauthentication">
-						
-						
-					</a>
-					<a class="editor-link" href="cloudcannon:collections/_documentation/authentication.md">Edit</a>
-				</h3>
-				
-
-				
-
-				
-
-
-				
-			</section>
-			
-		</section>
-	
-		<section class="doc-content">
-			<section class="left-docs">
-				<h3>
 					<a id="documentationgetting_started">
 						Getting Started
 						
@@ -195,6 +174,51 @@
 
 				
 			</section>
+			
+		</section>
+	
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>
+					<a id="documentationauthentication">
+						Authentication
+						
+					</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/authentication.md">Edit</a>
+				</h3>
+				
+
+				
+
+				<p>You need to be authenticated for all API requests. You can generate an API key in your developer dashboard.</p>
+
+<p>Add the API key to all requests as a GET parameter.</p>
+
+<p class="error">Nothing will work unless you include this API key</p>
+
+
+				
+			</section>
+			
+					<section class="right-code">
+						
+								
+
+
+<div title="JQuery" class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nx">$</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">"http://api.myapp.com/books/"</span><span class="p">,</span> <span class="p">{</span> <span class="s2">"token"</span><span class="p">:</span> <span class="s2">"YOUR_APP_KEY"</span><span class="p">},</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+   <span class="nx">alert</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+ <span class="p">});</span>
+</code></pre></div></div>
+
+						
+								
+
+
+<div title="Curl" class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> curl http://api.myapp.com/books?token<span class="o">=</span>YOUR_APP_KEY
+</code></pre></div></div>
+
+						
+				</section>
 			
 		</section>
 	
