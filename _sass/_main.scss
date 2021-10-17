@@ -296,8 +296,8 @@ hr {
 	border: 0;
 	border-bottom: 1px solid transparent;
 	border-image: linear-gradient(to right,	#eee 0%,#eee 60%,#333333 60%);
-	-moz-border-image: -moz-linear-gradient(left,	#eee 0%, #eee 60%, #CBDDD1 60%);
-	-webkit-border-image: -webkit-linear-gradient(left,	#eee 0%,#eee 60%,#333333 60%);
+	-moz-border-image: -moz-linear-gradient(left,	#eee 0%, #eee 60%, #333333 60%);
+	-webkit-border-image: -webkit-linear-gradient(left,	#eee 0%,#eee 60%,#CBDDD1 60%);
 	border-image-slice: 1;
 	padding: 30px 0;
 	background: #ffffff; /* Old browsers */
