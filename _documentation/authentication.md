@@ -14,7 +14,7 @@ content_markdown: |-
 left_code_blocks:
   - code_block:
     title:
-    language:R
+    language:
 right_code_blocks:
   - code_block: |2-
        $.get("http://api.myapp.com/books/", { "token": "YOUR_APP_KEY"}, function(data) {
