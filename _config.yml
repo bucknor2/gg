@@ -65,6 +65,7 @@ languages:
   php: PHP
   python: Python
   ruby: Ruby
+  R: r
 
 _options:
   content_markdown:
