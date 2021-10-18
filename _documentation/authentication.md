@@ -21,11 +21,11 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: cat hello.txt world.txt #TEST
-    title: Bash
+    title: R Bash
     language: Bash
   - code_block:
-    title:
-    language:
+    title:R
+    language:R
 ---
 
 
