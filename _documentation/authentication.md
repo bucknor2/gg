@@ -20,7 +20,7 @@ left_code_blocks:
     title:
     language:
 right_code_blocks:
-  - code_block: c(1:3)
+  - code_block: c(1:3)#TEST
     title: R
     language: R
   - code_block: ' curl http://api.myapp.com/books?token=YOUR_APP_KEY'
