@@ -16,8 +16,8 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: c(1:3)
-    title: Bash
-    language: Bash
+    title: R
+    language: bash
   - code_block: ' curl http://api.myapp.com/books?token=YOUR_APP_KEY'
     title: Curl
     language: bash
