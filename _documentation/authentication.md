@@ -21,7 +21,7 @@ left_code_blocks:
     language:
 right_code_blocks:
   - code_block: cat hello.txt world.txt #TEST
-    title: R
+    title: Bash
     language: Bash
   - code_block: ' curl http://api.myapp.com/books?token=YOUR_APP_KEY'
     title: Curl
