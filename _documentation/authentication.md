@@ -23,9 +23,9 @@ right_code_blocks:
   - code_block: cat hello.txt world.txt #TEST
     title: Bash
     language: Bash
-  - code_block: ' curl http://api.myapp.com/books?token=YOUR_APP_KEY'
-    title: Curl
-    language: bash
+  - code_block:
+    title:
+    language:
 ---
 
 
