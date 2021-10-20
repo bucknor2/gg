@@ -3,9 +3,9 @@
 .right-code code .err { color: #960050; background-color: #1e0010 } /* Error */
 .right-code code .k { color: #D0D1FD } /* Keyword */
 .right-code code .l { color: #D0D1FD } /* Literal */
-.right-code code .n { color: #D2F0AC } /* Name */
+.right-code code .n { color: #DEAF91 } /* Name */
 .right-code code .o { color: #FD6D64 } /* Operator */
-.right-code code .p { color: #D2F0AC } /* Punctuation */
+.right-code code .p { color: #DEAF91 } /* Punctuation */
 .right-code code .cm { color: #AFB87D } /* Comment.Multiline */
 .right-code code .cp { color: #AFB87D } /* Comment.Preproc */
 .right-code code .c1 { color: #AFB87D } /* Comment.Single */
@@ -37,15 +37,15 @@
 .right-code code .nv { color: #FFFEBA } /* Name.Variable */
 .right-code code .ow { color: #FFFEBA } /* Operator.Word */
 .right-code code .w { color: #FFFEBA } /* Text.Whitespace */
-.right-code code .mf { color: #E0FEEF } /* Literal.Number.Float */
-.right-code code .mh { color: #E0FEEF } /* Literal.Number.Hex */
-.right-code code .mi { color: #E0FEEF } /* Literal.Number.Integer */
-.right-code code .mo { color: #E0FEEF } /* Literal.Number.Oct */
+.right-code code .mf { color: #FD9EA5 } /* Literal.Number.Float */
+.right-code code .mh { color: #FD9EA5 } /* Literal.Number.Hex */
+.right-code code .mi { color: #FD9EA5 } /* Literal.Number.Integer */
+.right-code code .mo { color: #FD9EA5 } /* Literal.Number.Oct */
 .right-code code .sb { color: #FDCF79 } /* Literal.String.Backtick */
 .right-code code .sc { color: #FDCF79 } /* Literal.String.Char */
 .right-code code .sd { color: #FDCF79 } /* Literal.String.Doc */
 .right-code code .s2 { color: #FDCF79 } /* Literal.String.Double */
-.right-code code .se { color: #E0FEEF } /* Literal.String.Escape */
+.right-code code .se { color: #FD9EA5 } /* Literal.String.Escape */
 .right-code code .sh { color: #FDCF79 } /* Literal.String.Heredoc */
 .right-code code .si { color: #FDCF79 } /* Literal.String.Interpol */
 .right-code code .sx { color: #FDCF79 } /* Literal.String.Other */
@@ -56,7 +56,7 @@
 .right-code code .vc { color: #FFFEBA } /* Name.Variable.Class */
 .right-code code .vg { color: #FFFEBA } /* Name.Variable.Global */
 .right-code code .vi { color: #FFFEBA } /* Name.Variable.Instance */
-.right-code code .il { color: #E0FEEF } /* Literal.Number.Integer.Long */
+.right-code code .il { color: #FD9EA5 } /* Literal.Number.Integer.Long */
 
 .right-code code .gh { } /* Generic Heading & Diff Header */
 .right-code code .gu { color: #AFB87D; } /* Generic.Subheading & Diff Unified/Comment? */
